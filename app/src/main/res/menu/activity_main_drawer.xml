@@ -14,5 +14,9 @@
         <item
             android:id="@+id/motion_sensor"
             android:title="Motion Sensor"/>
+
+        <item
+            android:id="@+id/position_sensor"
+            android:title="Position Sensor"/>
     </group>
 </menu>

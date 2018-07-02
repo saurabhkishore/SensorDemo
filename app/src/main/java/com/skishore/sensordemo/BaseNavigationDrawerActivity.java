@@ -90,6 +90,10 @@ public class BaseNavigationDrawerActivity extends AppCompatActivity
             case R.id.motion_sensor:
                 startActivity(new Intent(this, MotionSensorActivity.class));
                 break;
+            case R.id.position_sensor:
+                startActivity(new Intent(this, PostionSensorActivity.class));
+                break;
+
         }
         finish();
 
