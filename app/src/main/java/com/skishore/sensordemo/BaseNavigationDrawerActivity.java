@@ -86,6 +86,10 @@ public class BaseNavigationDrawerActivity extends AppCompatActivity
             case R.id.counter_sensor:
                 startActivity(new Intent(this, CounterActivity.class));
                 break;
+
+            case R.id.motion_sensor:
+                startActivity(new Intent(this, MotionSensorActivity.class));
+                break;
         }
         finish();
 
